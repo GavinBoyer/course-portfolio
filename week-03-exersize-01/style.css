@@ -13,13 +13,13 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 36px;
-    background-color: burlywood;
+    background-color: saddlebrown;
     border: 4px solid whitesmoke;
 }
 
 h1 {
     color: white;
-    font-size: larger;
+    font-size: x-large;
     margin: 24px
 }
 
@@ -27,4 +27,8 @@ p {
     color: white;
     font-size: medium;
     margin: 24px;
+}
+
+a {
+    color: #d76f30
 }
