@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #172d13;
+    margin: 64px;
+    padding: 36px
+}
+
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 36px;
+    background-color: burlywood;
+    border: 4px solid whitesmoke;
+}
+
+h1 {
+    color: white;
+    font-size: larger;
+    margin: 24px
+}
+
+p {
+    color: white;
+    font-size: medium;
+    margin: 24px;
+}
