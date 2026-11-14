@@ -26,7 +26,7 @@ main {
     max-width: 1200px;
     width: 90%;
     padding: 16px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 5px groove cornflowerblue;
 }
 
 h1 {
@@ -56,7 +56,7 @@ main>p {
 
 .collection-card {
     border: 5px groove cornflowerblue;
-    background-color: aliceblue;
+    background-color: lightsteelblue;
     padding: 16px;
     flex-grow: 1;
     flex-shrink: 1;
