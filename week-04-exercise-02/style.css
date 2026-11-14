@@ -49,13 +49,13 @@ main>p {
 .collection-grid {
     margin: 12px 0;
     gap: 16px;
-    border: cornflowerblue solid 5px;
+    border: cornflowerblue groove 5px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .collection-card {
-    border: 5px solid cornflowerblue;
+    border: 5px groove cornflowerblue;
     background-color: aliceblue;
     padding: 16px;
     flex-grow: 1;
