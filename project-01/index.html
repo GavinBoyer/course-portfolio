@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 01: Personal Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
 </head>
 
@@ -13,55 +16,48 @@
         <h1>Gavin Boyer</h1>
         <div class="navigation">
             <nav>
-                <ul>
-                    <button class="nav-button">
-                        <li><a href="...">About</a></li>
-                    </button>
-
-                    <button class="nav-button">
-                        <li><a href="...">Hobbies</a></li>
-                    </button>
-
-                    <button class="nav-button">
-                        <li><a href="...">Skills</a></li>
-                    </button>
-
-                    <button class="nav-button">
-                        <li><a href="...">Projects</a></li>
-                    </button>
-
-                    <button class="nav-button">
-                        <li><a href="...">Contact</a></li>
-                    </button>
-                </ul>
+                <button class="nav-button">
+                    <a href="...">About</a>
+                </button>
+                <button class="nav-button">
+                    <a href="...">Hobbies</a>
+                </button>
+                <button class="nav-button">
+                    <a href="...">Skills</a>
+                </button>
+                <button class="nav-button">
+                    <a href="...">Projects</a>
+                </button>
+                <button class="nav-button">
+                    <a href="...">Contact</a>
+                </button>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="About">
+        <div class="about">
             <section>
                 <h3>About Me</h3>
                 <p>My name is Gavin Boyer. I am a senior computing applications major at Texas Tech University. While I do participate in online learning with TTU, I am originally from Lubbock, TX. I graduated from Frenship High School in 2022 with a 4.0 GPA, but have since struggled a bit in college. Throughout these struggles, my wonderful fiancee has been by my side. I am an avid outdoorsman and have been since I could hold a fishing rod. If you cannot find me, I am normally fishing. As for work, I am currently in retail and substitute teaching. It allows a nice balance of work and school, as I can be somewhat selective with my subbing hours. Last semester I was honored to be on the President's List and I aim to continue that over these next few months I have left. </p>
+                <img src="palo-duro-canyon.jpg" class="palo-duro-canyon" alt="Man and woman standing in canyon">
             </section>
         </div>
 
-        <div class="Hobbies">
+        <div class="hobbies">
             <section>
+                <h3>My Fishing Hobby</h3>
                 <p>As an avid angler, I have caught many fish from the ocean to your backyard creek. Here are a few of my favorites.</p>
-                <img src="fishing-picture-01.jpg" alt="Man holding a largemouth bass">
-                <img src="fishing-picture-02.jpg" alt="Man holding a channel catfish">
-                <img src="fishing-picture-03.jpg" alt="Man holding a common carp">
-                <img src="fishing-picture-04.jpg" alt="Man holding a black drum">
-                <img src="fishing-picture-05.jpg" alt="Man holding a red drum">
+                <img src="fishing-picture-01.jpg" class="fish-pic-01" alt="Man holding a largemouth bass">
+                <img src="fishing-picture-02.jpg" class="fish-pic-02" alt="Man holding a channel catfish">    
+                <img src="fishing-picture-03.jpg" class="fish-pic-03" alt="Man holding a common carp">
+                <img src="fishing-picture-04.jpg" class="fish-pic-04" alt="Man holding a black drum">   
+                <img src="fishing-picture-05.jpg" class="fish-pic-05" alt="Man holding a red drum">
+                <img src="fishing-picture-06.jpg" class="fish-pic-06" alt="Man holding a largemouth bass">   
             </section>
         </div>
-
-        <div class="palo-duro-picture">
-            <img src="palo-duro-canyon.jpg" alt="Man and woman standing in canyon">
-        </div>
-
-        <div class="Skills">
+        
+        <div class="skills">
             <section>
                 <h3>Skills and Accomplishments</h3>
                 <p>As a coder, I am unaccomplished, as of yet, althought I do have some completed websites that I have created. Most of my accomplishments came from music:
@@ -87,13 +83,17 @@
             </section>
         </div>
 
-        <div class="Projects">
+        <div class="projects">
             <section>
                 <h3>Projects</h3>
                 <p>Since joing the computing applications major, I have completed a few projects that I am very proud of. Both of the projects below are websites I created using HTML, CSS, and Markdown languages.</p>
                 <div class="project-buttons">
-                    <button class="project-button-01">Fishing Every Day</button>
-                    <button class="project-button-02">Catfishing Basics</button>
+                    <button class="project-button-01">
+                        <a href="https://gavinboyer.github.io/fishing-every-day-project-02/">Fishing Every Day</a>
+                    </button>
+                    <button class="project-button-02">
+                        <a href="https://gavinboyer.github.io/gavin-boyer-project-03/">Catfishing Basics</a>
+                    </button>
                 </div>
             </section>
         </div>
